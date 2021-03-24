@@ -49,9 +49,9 @@ spec:
         - name: MONGODB_REPLICA_NAME
           value: "rs0"
         - name: PRIMARY_NODE
-          value: "mongo-cluster1.apps.cluster-devwksp-55c0.devwksp-55c0.example.opentlc.com:443"
+          value: "mongo-cluster1.apps.ocp.webwim.com:443"
         - name: REPLICA_MEMBERS
-          value: "mongo-cluster1.apps.cluster-devwksp-55c0.devwksp-55c0.example.opentlc.com:443,mongo-cluster2.apps.cluster-1517.1517.example.opentlc.com:443,mongo-cluster3.apps.cluster-80f0.80f0.example.opentlc.com:443"
+          value: "mongo-cluster1.apps.ocp.webwim.com:443,mongo-cluster2.apps.gcp.mc.gcp.rhlabs.io:443,mongo-cluster3.apps.aws.mc.aws.rhlabs.io:443"
         volumeMounts:
         - mountPath: /data/db
           name: mongodb-data
