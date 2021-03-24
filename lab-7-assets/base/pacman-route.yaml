@@ -4,7 +4,7 @@ metadata:
   name: pacman
   namespace: pacman
 spec:
-  host: pacman-ingress.apps.cluster-devwksp-55c0.devwksp-55c0.example.opentlc.com
+  host: pacman-ingress.apps.ocp.webwim.com
   port:
     targetPort: 8080
   to:
