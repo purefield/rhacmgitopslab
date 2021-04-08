@@ -74,6 +74,6 @@ backend app
     http-request set-header Host pacman-ingress.apps.ocp.webwim.com
     mode http 
         server cluster1 pacman.apps.ocp.webwim.com:80 check
-        server cluster2 pacman.apps.gcp.mc.gcp.rhlabs.io:80 check
-        server cluster3 pacman.apps.aws.mc.aws.rhlabs.io:80 check
+        server cluster2 pacman.apps.ocp.webwim.com:80 check
+        server cluster3 pacman.apps.ocp.webwim.com:80 check
 
