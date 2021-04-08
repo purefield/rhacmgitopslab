@@ -4,4 +4,4 @@ metadata:
   name: mongo
   namespace: mongo
 spec:
-  host: mongo-cluster2.apps.gcp.mc.gcp.rhlabs.io
+  host: mongo-cluster2.apps.ocp.webwim.com
